@@ -1,0 +1,16 @@
+# Visual Studio 캐시 / 개인 설정
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# 빌드 산출물
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.log
+*.tlog
