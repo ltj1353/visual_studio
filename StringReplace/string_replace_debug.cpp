@@ -25,7 +25,7 @@ string replaceAll(string s, string f, string r)
         if (fIndex == string::npos)                 // 더 없으면 종료
             break;
 
-        string first = s.substr(startIndex, fIndex - startIndex);   // f 앞부분
+        string first = s.substr(0, fIndex);   // f 앞부분
         string second = s.substr(fIndex + f.length());              // f 뒷부분
         s = first + r + second;                                     // 다시 조립
         startIndex = fIndex + r.length();           // 바꿔 넣은 r 다음으로 이동
